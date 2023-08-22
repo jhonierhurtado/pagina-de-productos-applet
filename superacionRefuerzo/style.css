@@ -1,0 +1,58 @@
+/* estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Barra de navegación */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Estilos de sesiones  */
+
+section {
+    padding: 2rem;
+}
+
+/* Estilos de productos */
+.productos {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 50px;
+
+}
+
+.precio {
+    color: #00aaff;
+    font-weight: bold;
+
+}
+
+img{
+    width: 100px;
+}
